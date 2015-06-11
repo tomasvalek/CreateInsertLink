@@ -18,3 +18,5 @@ This extension is not in Google Chrome webstore.
 Screenshots
 -------------
 (screenshots/0.png)
+
+<img src="screenshots/0.png">
