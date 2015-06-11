@@ -1,0 +1,15 @@
+2015-06-11 Tomas Valek <www.tomasvalek.cz>
+	* verze 0.0.4
+		Small refactoring.
+
+2015-03-17 Tomas Valek <www.tomasvalek.cz>
+	* verze 0.0.3
+		Automatically close popup window after onClick Success.
+
+2015-03-13 Tomas Valek <www.tomasvalek.cz>
+	* verze 0.0.2
+		Fixed race condition bug.
+
+2015-03-12 Tomas Valek <www.tomasvalek.cz>
+	* verze 0.0.1
+		First version.

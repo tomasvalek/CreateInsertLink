@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 
+ * File:	  	popup.css
+ * Date:   		17.03.2015
+ * Author:   	Tomas Valek
+ * Desc.:   	CSS style for popup.css.
+ * author 		Tomas Valek
+
+ colors 
+	#47A447 dark green
+
+	font-sizes:
+		125%
+		175%
+*/
+
+*:focus {
+    outline: none;	/*odstraneni ramecku po kliknuti na obrazek*/
+}
+
+body {
+	width: 95%;									/*1280px*/
+	font-family: Helvetica, Arial, sans-serif;	/*Helvetica je stejna na WIN/LINUX*/
+	color: #333333;
+	margin: 0 auto;
+}
+
+/*Sirka textu nam udela mezeru mezi labelem a inputem.*/
+label {
+	width: 80px;
+	font-size: 175%;
+	display: inline-block;	/*sirka lze nastavit pouze blokovemu prvku, proto tento prvek bude blokovy bez odradkovani*/
+}
+
+input[type="text"] {
+	width: 77%;
+	margin-bottom: 1em;
+	padding: 9px 5px;
+	border: solid 1px silver;
+	outline: 0;
+	box-shadow: 0px 0px 8px silver;		/*pure CSS3, no Opera*/
+}
+
+input[type="text"]:hover,	/*Pri prejeti kurzorem nedelat cerny ramecek pro typ button a submit*/
+input[type="text"]:focus	/*Pri kliknut nedelat cerny ramecek pro typ button a submit*/
+{ /*Zmena ramecku formulare po najeti/kliknuti, ale ne tlacitka*/
+	border-color: black;
+}
+
+/*TLACITKA*/
+input[type="submit"] {
+	padding: 9px 15px;
+	border-radius: 4px;
+	color: white;
+	border: 1px solid silver;
+	text-align: center;
+	font-size: 150%;						/*element "a" a input se lisily ve velikosti pisma*/
+	background-color: #47A447;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	text-shadow: 0px 0px 8px white;
+	transition: all 150ms ease-in 0s;		/*Internet Explorer 10, Firefox, Opera, and Chrome.*/
+}

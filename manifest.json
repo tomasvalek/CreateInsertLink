@@ -1,0 +1,28 @@
+{
+	"name": "CreateInsert link tag",
+	"description": "You can click to editable tag (textarea, input) and create + insert HTML link tag at this place. Name of link is automatically copied from clipboard.",
+	"version": "0.0.4",
+	"manifest_version": 2,
+	"permissions": ["contextMenus", "clipboardRead", "tabs"],
+	"icons": {
+		"16": "img/icon16.png",
+		"48": "img/icon48.png",
+		"128": "img/icon128.png"
+	},
+	"background": {
+		"page": "background.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"js": [
+				"js/contentscript.js"
+			],
+			"run_at": "document_idle",
+			"all_frames": true
+		}
+	]
+}
