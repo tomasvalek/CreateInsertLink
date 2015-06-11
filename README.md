@@ -17,4 +17,4 @@ This extension is not in Google Chrome webstore.
 
 Screenshots
 -------------
-!(screenshots/0.png?raw=true)
+(screenshots/0.png?raw=true)
