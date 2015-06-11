@@ -14,3 +14,7 @@ Drag file:CreateInsertLink.crx to Google Chrome window.
 Google Chrome webstore
 -------------
 This extension is not in Google Chrome webstore.
+
+Screenshots
+-------------
+!(screenshots/0.png?raw=true)
