@@ -17,6 +17,11 @@ This extension is not in Google Chrome webstore.
 
 Screenshots
 -------------
-(screenshots/0.png)
-
+Context menu:     
 <img src="screenshots/0.png">
+
+Create URL:     
+<img src="screenshots/1.png">
+
+Paste HTML tag:     
+<img src="screenshots/2.png">
